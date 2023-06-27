@@ -5,6 +5,7 @@ def TwoSum(n):
 	>>> TwoSum([1,-1, 2, 0,-2])
 	[(0, 1), (1, 0), (2, 4), (4, 2)]
 	"""
+	#create dictionary
 	my_dict = {}
 	for i, val in enumerate(n):
 		my_dict[val] = i
