@@ -2,7 +2,7 @@ class Solution:
     def maxArea(self, height: List[int]) -> int:
         #create the left and right pointers
         left, result, right = 0, 0, len(height) - 1
-        #loop through the list while l < r
+        #loop through the list while left < right
         while left < right:
             area = (right - left) * min(height[left], height[right])
             result = max(area, result)
