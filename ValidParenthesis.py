@@ -1,6 +1,7 @@
 class Solution:
     def isValid(self, s: str) -> bool:
         opening = {"(", "[", "{"}
+        #create stack
         stack = []
         for item in s:
             if item in opening:
