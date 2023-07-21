@@ -1,5 +1,5 @@
 def ThreeSum(A):
-	"""Return the indices of three numbers in A such that their sum is equal 0.
+	"""Return the indices of three numbers in array A such that their sum is equal 0.
 	>>> ThreeSum([-3, -1, 1, 0, 2, 10, -2, 8])
 	[[-3, 1, 2], [-2, 0, 2], [-1, 0, 1]]
 	>>> ThreeSum([-5, 3, 2, 0, 1, -1, -5, 3, 2])
