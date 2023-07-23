@@ -11,7 +11,7 @@ class Solution:
 
 	"""
     @param: str: A string
-    @return: decodes a single string to a list of strings
+    @return: decodes a single string to a list of strings.
     """
 	def decode(self, strs):
 		i, output = 0, []
