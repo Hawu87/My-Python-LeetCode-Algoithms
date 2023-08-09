@@ -2,7 +2,7 @@ class Solution:
     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
         #use a stack to keep track of values
         #pop value if temperature greater than that found
-        #else append
+        #else append num
         #use a list of tuple to hold index and val
         stack = []
         output = [0] * len(temperatures)
